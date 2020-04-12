@@ -1,0 +1,297 @@
+/*Estilos para header */
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+header {
+  width:100%;
+  height: 70px;
+	overflow:hidden;
+  margin-bottom:20px;
+}
+
+/*Estilos para redes sociales */
+
+.social {
+  position: fixed;
+  left: 0;
+  top: 300px;
+  z-index: 2000;
+}
+
+.social ul{
+  list-style: none;
+  padding: 0;
+  margin: 0px 5px;
+}
+
+.social ul li a{
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.social  a:hover{
+  padding: 10px 30px;
+}
+
+/*Estilos para ayuda */
+
+.help {
+  position: fixed;
+  right: 0;
+  top: 450px;
+  z-index: 2000;
+}
+
+.help ul{
+  list-style: none;
+  padding: 0;
+  margin: 0px 5px;
+}
+
+.help ul li a{
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.help ul li a:hover{
+  padding: 5px 20px ;
+}
+/*Estilos para header */
+
+.contenedor {
+	width:95%; 
+	margin:auto;
+  overflow:hidden;
+}
+ 
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:70px;
+	float:left;
+}
+ 
+header nav {
+	float:right;
+	line-height:70px;
+}
+ 
+header nav a {
+	display:inline-block;
+	color:black;
+	text-decoration:black;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:17px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+ 
+header nav a:hover {
+	background:#006880;
+  border-radius:50px;
+  color: white;
+}
+
+/*Estilos para section*/
+
+.desing { 
+    width: 80%;
+    min-height: 800px;
+    margin:auto;
+}
+
+section{
+  margin-bottom: 20px;
+}
+section .description { 
+    width: 100%;    
+}
+
+/*Estilos detail*/
+
+.detail { 
+    margin:10px auto 0px auto ;
+    width: 90%;
+    height: 300px;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item {
+    padding: 5px;
+    width: 200px;
+    color: black;
+    text-align: center;
+  }
+
+  .flex-item p{
+    text-align: justify;
+  }
+
+  .flex-container2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: #005883;
+  }
+  
+  .flex-item2 {
+    padding: 10px;
+    width: 40%;
+    height: 250px;
+    color: white;
+    text-align: justify;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+/*Estilos footer*/
+
+footer {
+    width: 100%;
+    line-height: 2px;
+    text-align: center;
+    background: #F47920;
+  }
+
+/*Estilos estructura*/
+.structure{  
+  margin:auto;  
+  width: 90%;
+  min-height: 650Px;
+  background:#d8e3e6;
+  color: #F0B429;
+  text-align: center;
+
+}
+.header{    
+  margin-top: 10px;
+  height: 80px;  
+  background:#005883;
+  
+}
+.nav{
+  margin-top: 10px;
+  float: right;
+  width: 68%;
+  height: 110px;   
+  background:#005883;  
+
+}
+.aside{
+  margin-top: 10px;
+  float: left;
+  width: 31%;
+  height: 450px;   
+  background:#005883;  
+
+}
+.section{  
+  margin-top: 10px;
+  float: right;
+  width: 68%;
+  height: 330px;   
+  background:#005883;
+
+}
+
+.article{   
+  width: 90%;
+  height: 150px;   
+  background:#005883;
+  border: solid;
+  padding:  1rem;
+
+}
+
+.footer{
+  margin-top: 10px;
+  background-position-x: initial;
+  float: right;
+  width: 100%;
+  height: 90px;
+  background:#005883;
+  
+}
+
+/*objetivos*/
+.objetivos{
+  margin:auto;
+  margin-top: 30px;  
+  width: 40%;
+  min-height: 650Px; 
+    
+}
+
+/*video estructura*/
+.videoEstructura{
+  margin-top: 20px;  
+  float: right;
+  width: 30%;
+  height: 200px; 
+  
+}
+
+.contenedorEstructura{
+  margin: auto;
+  max-width: 90%;
+  
+}
+
+.central{  
+  max-width: 70%;
+  float: left;
+}
+
+/*Estilos autores*/
+.tituloAutores{
+  background-color: #005883;
+  width: auto;
+  height: 90px;
+  text-align: center;
+  color: white;
+}
+
+.autores{
+  margin: auto;
+  margin-top: 40px;
+  width: 80%;
+  height: 400px;  
+  text-align: center;
+    
+}
+
+.autor-1{
+  float: left;
+  margin: auto;
+  margin-top: 80px;
+  margin-left: 10px;
+  width: 49%;
+  height: 250px;   
+   
+}
+.autor-2{
+  float: right;
+  margin: auto;
+  margin-top: 80px;
+  margin-right: 10px;
+  width: 49%;
+  height: 250px;
+      
+}
